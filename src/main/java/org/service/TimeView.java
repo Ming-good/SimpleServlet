@@ -2,6 +2,8 @@ package org.service;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import org.annotation.Servlet;
+import org.http.HttpMethod;
 import org.http.request.HttpRequest;
 import org.http.response.HttpResponse;
 import org.resource.ResourceWrite;
@@ -9,7 +11,7 @@ import org.servlet.SimpleServlet;
 
 public class TimeView implements SimpleServlet {
 
-    @Override
+    @Servlet("GET")
     public void service(HttpRequest request, HttpResponse response) {
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 

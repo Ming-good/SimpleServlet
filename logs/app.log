@@ -1,0 +1,18 @@
+2025-03-19 00:06:17.117 [main] INFO  org.server.HttpServer - Accepting connections on port 8080
+2025-03-19 00:14:06.817 [main] INFO  org.server.HttpServer - Accepting connections on port 8080
+2025-03-19 00:14:12.321 [main] INFO  org.server.HttpServer - Accepting connections on port 8080
+2025-03-19 00:14:59.712 [main] INFO  org.server.HttpServer - Accepting connections on port 80
+2025-03-19 00:20:57.597 [main] INFO  org.server.HttpServer - Accepting connections on port 80
+2025-03-19 00:23:36.036 [main] INFO  org.server.HttpServer - Accepting connections on port 80
+2025-03-19 00:26:26.488 [main] INFO  org.server.HttpServer - Accepting connections on port 80
+2025-03-19 01:04:19.083 [main] INFO  org.server.HttpServer - Accepting connections on port 80
+2025-03-19 01:38:30.075 [main] INFO  org.server.HttpServer - Accepting connections on port 80
+2025-03-19 01:49:59.517 [main] INFO  org.server.HttpServer - Accepting connections on port 80
+2025-03-19 01:51:03.847 [main] INFO  org.server.HttpServer - Accepting connections on port 80
+2025-03-19 01:52:53.379 [main] INFO  org.server.HttpServer - Accepting connections on port 80
+2025-03-19 01:56:53.441 [main] ERROR org.SimpleApplicationContext - 서버 시작 실패 
+java.lang.IllegalArgumentException: 지원되지 않는 메소드 입니다
+	at org.mapping.ServletFactory.createServlet(ServletFactory.java:46)
+	at org.mapping.ServletFactory.init(ServletFactory.java:24)
+	at org.server.HttpServer.start(HttpServer.java:34)
+	at org.SimpleApplicationContext.main(SimpleApplicationContext.java:12)
